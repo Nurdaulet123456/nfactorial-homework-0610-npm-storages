@@ -1,0 +1,18 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "git init",
+    "add": "git add .",
+    "commit": "git commit -m 'Cookie'",
+    "push": "git push origin main -f",
+    "remote": "git remote add origin https://github.com/Nurdaulet123456/nfactorial-homework-0610-npm-storages.git",
+    "pushToGit": "npm run init && npm run add && npm run commit && npm run remote && npm run push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
